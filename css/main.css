@@ -49,7 +49,7 @@
 
 html {
   height: 100%;
-  overflow-y: hidden;
+  overflow: hidden;
   background-color: #474548;
   margin-top: 10em;
   image-rendering: crisp-edges;
@@ -66,6 +66,7 @@ body {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
+  overflow-y: hidden;
   color: #FFFFFF;
 }
 
