@@ -47,7 +47,7 @@
 	text-decoration: none;
 }
 
-body {
+html {
   background-color: #474548;
   margin-top: 10em;
   image-rendering: crisp-edges;
@@ -65,7 +65,7 @@ body {
 
 @media (-webkit-min-device-pixel-ratio: 2.0) { 
 /* Retina-specific stuff here */ 
-  body {
+  html {
     background: url(/assets/bg_conv.jpg) no-repeat center bottom fixed #474548;
     background-size: contain;
     background-position: bottom;
