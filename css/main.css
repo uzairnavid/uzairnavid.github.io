@@ -48,6 +48,8 @@
 }
 
 html {
+  height: 100%;
+  overflow-y: hidden;
   background-color: #474548;
   margin-top: 10em;
   image-rendering: crisp-edges;
