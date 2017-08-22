@@ -48,9 +48,9 @@
 }
 
 body {
-  margin-top: 6.5em;
+  margin-top: 10em;
   background-color: #474548;
-  background: url(/assets/bg_nonret.jpg) no-repeat center center fixed;
+  background: url(/bg_nonret.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
