@@ -50,6 +50,7 @@
 body {
   background-color: #474548;
   margin-top: 10em;
+  image-rendering: crisp-edges;
   background: url(/assets/bg_nonret.jpg) no-repeat center center fixed #474548;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -62,10 +63,11 @@ body {
   color: #FFFFFF;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 192dpi) { 
 /* Retina-specific stuff here */ 
   body {
     background: url(/assets/bg_conv.jpg) no-repeat center center fixed #474548;
+    
   }
 
 }
@@ -99,7 +101,6 @@ html {
 img {
   image-rendering: auto;
   image-rendering: crisp-edges;
-  image-rendering: pixelated;
 }
 
 *,
