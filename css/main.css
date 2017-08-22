@@ -63,7 +63,7 @@ body {
   color: #FFFFFF;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2.0), (min-resolution: 192dpi) { 
+@media (-webkit-min-device-pixel-ratio: 2.0) { 
 /* Retina-specific stuff here */ 
   body {
     background: url(/assets/bg_conv.jpg) no-repeat bottom bottom fixed #474548;
