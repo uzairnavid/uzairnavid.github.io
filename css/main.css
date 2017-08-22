@@ -88,6 +88,12 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
+img {
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
 *,
 *::before,
 *::after {
