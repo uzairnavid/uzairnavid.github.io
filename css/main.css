@@ -51,11 +51,11 @@ body {
   background-color: #474548;
   margin-top: 10em;
   image-rendering: crisp-edges;
-  background: url(/assets/bg_nonret.jpg) no-repeat center center fixed #474548;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url(/assets/bg_nonret.jpg) no-repeat center bottom fixed #474548;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
   font-weight: normal;
@@ -66,7 +66,9 @@ body {
 @media (-webkit-min-device-pixel-ratio: 2.0) { 
 /* Retina-specific stuff here */ 
   body {
-    background: url(/assets/bg_conv.jpg) no-repeat bottom bottom fixed #474548;
+    background: url(/assets/bg_conv.jpg) no-repeat center bottom fixed #474548;
+    background-size: 100%;
+    background-position: bottom;
   }
 }
 
