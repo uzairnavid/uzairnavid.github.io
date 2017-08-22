@@ -52,6 +52,7 @@ html {
   margin-top: 10em;
   image-rendering: crisp-edges;
   background: url(/assets/bg_nonret.jpg) no-repeat center bottom fixed #474548;
+  background-position: bottom;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
