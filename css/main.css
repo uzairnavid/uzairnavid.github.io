@@ -1,7 +1,10 @@
 .welcome {
 	position: relative;
-	font-size: 4rem !important; 
+	font-size: 3.8rem; 
+	font-weight: 300;
+  	line-height: 1.1;
 	color: #47b6b9;
+	transition: 0.2s ease-in-out;
 }
 
 .name-line {
@@ -15,27 +18,23 @@
 	padding-top: 5px;
 	color: white;
 	font-weight: 100;
-	font-size: 0.9em;
-	font-style: 
+	font-size: 0.95em;
+	transition: 0.2s ease-in-out;
 }
 
 .links {
+	margin-left: 5px;
+	margin-right: 5px;
 	padding-top: 30px;
-}
-
-.applyBackground {
-	// background-color: #3b393a;
-	background-image: url(/bg4.png); 
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: bottom;
 }
 
 .linkButton {
 	color: white;
 	font-size: 1.5em;
-	margin-right: 50px;
+	margin-left: 25px;
+	margin-right: 25px;
 	transition: 0.2s ease-in-out;
+	text-decoration: none;
 }
 
 .linkButton:hover {
@@ -43,12 +42,79 @@
 	text-decoration: none;
 }
 
-.body p {
-
+.linkButton:visited {
+	color: white !important;
+	text-decoration: none;
 }
 
-.throwaway {
-	height: 25%;
-	content: "";
-	visibility: visible;
+body {
+  margin-top: 6.5em;
+  background-color: #474548;
+  background: url(/assets/bg_nonret.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media screen and (max-width: 585px){
+    .welcome {
+    	font-size: 2.75rem;
+    }
+    .definition {
+    	font-size: 0.8em;
+    }
+    .linkButton {
+    	font-size: 1em;
+    }
+    .definition {
+    	padding-left: 5px;
+    	padding-right: 5px;
+    }
+}
+
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.linkButton, a {
+  cursor: pointer !important;
+}
+
+b {
+	font-weight: bolder;
+}
+
+.text-center {
+  text-align: center !important;
 }
