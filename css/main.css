@@ -48,18 +48,16 @@
 }
 
 html {
-  height: -webkit-fill-available;
-  height: 100%;
   overflow: hidden;
   background-color: #474548;
   margin-top: 10em;
   image-rendering: crisp-edges;
   background: url(/assets/bg_nonret.jpg) no-repeat center bottom fixed #474548;
   background-position: bottom;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 body {
@@ -71,17 +69,12 @@ body {
   color: #FFFFFF;
 }
 
-// @media (-webkit-min-device-pixel-ratio: 2.0) { 
-// /* Retina-specific stuff here */ 
-//   html {
-//     background: url(/assets/bg_conv.jpg) no-repeat center bottom fixed #474548;
-//     background-size: contain;
-//     background-position: bottom;
-//   }
-// }
-
-@media screen and (max-width: 900px) {
-  background-size: 900px;
+@media (-webkit-min-device-pixel-ratio: 2.0) { 
+/* Retina-specific stuff here */ 
+  html {
+    background: url(/assets/bg_conv.jpg) no-repeat center bottom fixed #474548;
+    background-size: cover;
+  }
 }
 
 @media screen and (max-width: 585px){
@@ -114,7 +107,6 @@ html {
 
 img {
   image-rendering: auto;
-  image-rendering: crisp-edges;
 }
 
 *,
