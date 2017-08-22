@@ -71,14 +71,14 @@ body {
   color: #FFFFFF;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2.0) { 
-/* Retina-specific stuff here */ 
-  html {
-    background: url(/assets/bg_conv.jpg) no-repeat center bottom fixed #474548;
-    background-size: contain;
-    background-position: bottom;
-  }
-}
+// @media (-webkit-min-device-pixel-ratio: 2.0) { 
+// /* Retina-specific stuff here */ 
+//   html {
+//     background: url(/assets/bg_conv.jpg) no-repeat center bottom fixed #474548;
+//     background-size: contain;
+//     background-position: bottom;
+//   }
+// }
 
 @media screen and (max-width: 900px) {
   background-size: 900px;
