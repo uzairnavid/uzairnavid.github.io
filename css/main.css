@@ -66,16 +66,12 @@ body {
 @media (-webkit-min-device-pixel-ratio: 2.0), (min-resolution: 192dpi) { 
 /* Retina-specific stuff here */ 
   body {
-    background: url(/assets/bg_conv.jpg) no-repeat center center fixed #474548;
+    background: url(/assets/bg_conv.jpg) no-repeat bottom bottom fixed #474548;
   }
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 192dpi) { 
-/* Retina-specific stuff here */ 
-  body {
-    background: url(/assets/bg_conv.jpg) #474548;
-    background-size: cover;
-  }
+@media screen and (max-width: 900px) {
+  background-size: 900px;
 }
 
 @media screen and (max-width: 585px){
