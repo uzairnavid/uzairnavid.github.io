@@ -1,0 +1,54 @@
+.welcome {
+	position: relative;
+	font-size: 4rem !important; 
+	color: #47b6b9;
+}
+
+.name-line {
+	color: #3b393a;
+	background-color: #47b6b9;
+	padding: 0px 5px;
+	display: inline-block;
+}
+
+.definition {
+	padding-top: 5px;
+	color: white;
+	font-weight: 100;
+	font-size: 0.9em;
+	font-style: 
+}
+
+.links {
+	padding-top: 30px;
+}
+
+.applyBackground {
+	// background-color: #3b393a;
+	background-image: url(/bg4.png); 
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.linkButton {
+	color: white;
+	font-size: 1.5em;
+	margin-right: 50px;
+	transition: 0.2s ease-in-out;
+}
+
+.linkButton:hover {
+	color: #47b6b9;
+	text-decoration: none;
+}
+
+.body p {
+
+}
+
+.throwaway {
+	height: 25%;
+	content: "";
+	visibility: visible;
+}
