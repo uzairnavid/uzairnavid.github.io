@@ -48,6 +48,7 @@
 }
 
 html {
+  height: -webkit-fill-available;
   height: 100%;
   overflow: hidden;
   background-color: #474548;
