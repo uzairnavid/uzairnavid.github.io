@@ -132,6 +132,7 @@ body {
     html {
       background-color: #474548;
       background-image: url(/assets/mobile-bg.jpg);
+      background-position: bottom;
     }
 }
 
