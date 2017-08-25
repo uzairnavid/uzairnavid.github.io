@@ -22,10 +22,10 @@
 .definition {
 	padding-top: 5px;
 	color: white;
-	font-weight: 100;
 	font-size: 1em;
 	transition: 0.2s ease-in-out;
   font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
 
 .links {
@@ -33,6 +33,7 @@
 	margin-right: 5px;
 	padding-top: 30px;
   font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
 
 .linkButton {
@@ -99,23 +100,33 @@ body {
       padding-left: 5px;
       padding-right: 5px;
     }
+    body {
+      margin-top: 6.5em;
+    }
 }
 
 @media screen and (max-width: 585px){
     .welcome {
-    	font-size: 2.75rem;
+    	font-size: 3rem;
     }
     .definition {
-    	font-size: 0.8em;
+      font-size: 0.9em;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    .links {
+      position: relative;
+      line-height: 2.2;
+      max-width: 6.5em;
+      font-size: 1.2em;
+      margin-left: auto;
+      margin-right: auto;
     }
     .linkButton {
-    	font-size: 1em;
+    	font-size: 1.25em;
       margin-left: 15px;
       margin-right: 15px;
-    }
-    .definition {
-    	padding-left: 5px;
-    	padding-right: 5px;
+      font-weight: 300;
     }
 }
 
