@@ -14,7 +14,7 @@
 
 .name-line {
 	// color: #3B393A;
-  color: #3E3E3E
+  color: #3E3E3E;
 	background-color: #47B6B9;
 	padding: 0px 5px;
 	display: inline-block;
@@ -85,6 +85,35 @@ body {
   }
 }
 
+@media screen and (max-width: 585px){
+    .welcome {
+      font-size: 3rem;
+    }
+    .definition {
+      font-size: 0.9em;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    .links {
+      position: relative;
+      line-height: 2.2;
+      max-width: 6.5em;
+      font-size: 1.2em;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .linkButton {
+      font-size: 1.25em;
+      margin-left: 15px;
+      margin-right: 15px;
+      font-weight: 300;
+    }
+    html {
+      background: url(/assets/mobile-bg.jpg) no-repeat #474548;
+      background-size: cover;
+    }
+}
+
 @media screen and (max-width: 700px){
     .welcome {
       font-size: 3.5rem;
@@ -103,38 +132,6 @@ body {
     }
     body {
       margin-top: 4.8em;
-    }
-}
-
-@media screen and (max-width: 585px){
-    .welcome {
-    	font-size: 3rem;
-    }
-    .definition {
-      font-size: 0.9em;
-      padding-left: 5px;
-      padding-right: 5px;
-    }
-    .links {
-      position: relative;
-      line-height: 2.2;
-      max-width: 6.5em;
-      font-size: 1.2em;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .linkButton {
-    	font-size: 1.25em;
-      margin-left: 15px;
-      margin-right: 15px;
-      font-weight: 300;
-    }
-}
-
-@media screen and (max-width: 465px){
-html {
-      background: url(/assets/mobile-bg.jpg) no-repeat #474548;
-      background-size: cover;
     }
 }
 
