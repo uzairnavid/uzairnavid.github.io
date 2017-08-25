@@ -8,13 +8,14 @@
 	font-size: 4rem; 
 	font-weight: 300;
   	line-height: 1.1;
-	color: #47b6b9;
+	color: #47B6B9;
 	transition: 0.2s ease-in-out;
 }
 
 .name-line {
-	color: #3b393a;
-	background-color: #47b6b9;
+	// color: #3B393A;
+  color: #3E3E3E
+	background-color: #47B6B9;
 	padding: 0px 5px;
 	display: inline-block;
 }
@@ -37,7 +38,7 @@
 }
 
 .linkButton {
-	color: #eeeeee;
+	color: #EEEEEE;
 	font-size: 1.7em;
 	margin-left: 25px;
 	margin-right: 25px;
@@ -46,7 +47,7 @@
 }
 
 .linkButton:hover {
-	color: #47b6b9;
+	color: #47B6B9;
 	text-decoration: none;
 }
 
