@@ -42,7 +42,7 @@
 	font-size: 1.7em;
 	margin-left: 25px;
 	margin-right: 25px;
-	transition: 0.2s ease-in-out;
+	transition: 0.15s ease-in-out;
 	text-decoration: none;
 }
 
@@ -129,11 +129,12 @@ body {
       margin-right: 15px;
       font-weight: 300;
     }
-    html {
-      background-color: #474548;
-      background-image: url(/assets/mobile-bg.jpg);
-      background-position: bottom;
-      background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 465px){
+html {
+      background: url(/assets/mobile-bg.jpg) no-repeat #474548;
+      background-size: cover;
     }
 }
 
