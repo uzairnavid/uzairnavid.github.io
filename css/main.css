@@ -130,7 +130,8 @@ body {
       font-weight: 300;
     }
     html {
-      background: url(/assets/mobile-bg.jpg) no-repeat center #474548;
+      background-color: #474548;
+      background-image: url(/assets/mobile-bg.jpg);
     }
 }
 
