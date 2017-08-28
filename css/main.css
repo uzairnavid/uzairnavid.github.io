@@ -1,8 +1,9 @@
-@font-face { font-family: oswald-italic; 
-       src: url('../assets/Oswald-RegularItalic.woff2') format('woff2'), 
-       src: url('Oswald-RegularItalic.woff') format('woff'),
-       src: url('../assets/Oswald-RegularItalic.ttf') format('truetype'); 
-     }
+@font-face { 
+  font-family: oswald-italic; 
+  src: url('../assets/fonts/Oswald-RegularItalic.woff2') format('woff2'), 
+  src: url('../assets/fonts/Oswald-RegularItalic.woff') format('woff'),
+  src: url('../assets/fonts/Oswald-RegularItalic.ttf') format('truetype'); 
+}
 
 .welcome {
   font-family: oswald-italic, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif, Arial; 
@@ -15,7 +16,6 @@
 }
 
 .name-line {
-	// color: #3B393A;
   color: #3E3E3E;
 	background-color: #47B6B9;
 	padding: 0px 5px;
@@ -55,7 +55,7 @@
 
 html {
   background-color: #474548;
-  background: url(/assets/bg_nonret.jpg) no-repeat center bottom fixed #474548;
+  background: url(/assets/images/bg_nonret.jpg) no-repeat center bottom fixed #474548;
   background-position: bottom;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -76,7 +76,7 @@ body {
 @media (-webkit-min-device-pixel-ratio: 2.0) { 
 /* Retina-specific stuff here */ 
   html {
-    background: url(/assets/bg_conv.jpg) no-repeat center bottom fixed #474548;
+    background: url(/assets/images/bg_conv.jpg) no-repeat center bottom fixed #474548;
     background-size: cover;
   }
 }
@@ -108,7 +108,7 @@ body {
       font-weight: 300;
     }
     html {
-      background: url(/assets/mobile-bg.jpg) no-repeat #474548;
+      background: url(/assets/images/mobile-bg.jpg) no-repeat #474548;
       background-size: cover;
     }
 }
@@ -141,7 +141,6 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  // -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: transparent;
 }
 
