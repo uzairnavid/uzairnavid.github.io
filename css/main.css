@@ -79,6 +79,9 @@ body {
 }
 
 @media screen and (max-width: 585px){
+    body {
+      margin-top: 4.8em;
+    }
     .welcome {
       font-size: 3rem;
     }
