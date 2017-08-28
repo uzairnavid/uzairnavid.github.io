@@ -1,8 +1,7 @@
-@font-face { 
-  font-family: oswald-italic; 
+@font-face { font-family: oswald-italic; 
   src: url('../assets/fonts/Oswald-RegularItalic.woff2') format('woff2'), 
-  src: url('../assets/fonts/Oswald-RegularItalic.woff') format('woff'),
-  src: url('../assets/fonts/Oswald-RegularItalic.ttf') format('truetype'); 
+       url('../assets/fonts/Oswald-RegularItalic.woff') format('woff'),
+       url('../assets/fonts/Oswald-RegularItalic.ttf') format('truetype'); 
 }
 
 .welcome {
