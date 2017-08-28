@@ -1,5 +1,8 @@
 @font-face { font-family: oswald-italic; 
-       src: url('../assets/Oswald-RegularItalic.ttf'); } 
+       src: url('../assets/Oswald-RegularItalic.woff2') format('woff2'), 
+       src: url('Oswald-RegularItalic.woff') format('woff'),
+       src: url('../assets/Oswald-RegularItalic.ttf') format('truetype'); 
+     }
 
 .welcome {
   font-family: oswald-italic, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif, Arial; 
